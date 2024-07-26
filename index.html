@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight Overview</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eaeaea;
+            color: #444;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #1e2a38;
+            margin-top: 20px;
+            font-size: 2.5em;
+        }
+        .game-info {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        .game-info img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        .game-info h2 {
+            color: #2b3a4d;
+            margin-top: 20px;
+        }
+        .game-info p {
+            line-height: 1.6;
+            margin: 10px 0;
+            text-align: left;
+        }
+        .toggle {
+            display: none;
+        }
+        .more-info {
+            display: none;
+            text-align: left;
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+        .toggle:checked + label + .more-info {
+            display: block;
+        }
+        label {
+            display: inline-block;
+            margin-top: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #007bff;
+        }
+        label:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #1e2a38;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        footer a {
+            color: #f0f0f0;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .video-link {
+            display: block;
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .video-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hollow Knight</h1>
+    <div class="game-info">
+        <img src="https://example.com/hollow-knight-cover.jpg" alt="Hollow Knight Cover">
+        <p><strong>Hollow Knight</strong> is a Metroidvania-style action-adventure game developed and published by Team Cherry. Released in 2017, it is celebrated for its challenging gameplay, intricate world design, and atmospheric presentation.</p>
+        
+        <input type="checkbox" id="toggle" class="toggle">
+        <label for="toggle">Read more...</label>
+        
+        <div class="more-info">
+            <h2>Gameplay</h2>
+            <p>In <strong>Hollow Knight</strong>, players take control of a mysterious, insect-like knight navigating the vast and interconnected underground realm of Hallownest. Armed with a nail, a weapon resembling a sword, the knight engages in combat, interacts with the environment, and solves various puzzles. The gameplay emphasizes exploration, with players uncovering secrets, encountering diverse NPCs, and gaining new abilities as they progress.</p>
+            
+            <h2>Plot</h2>
+            <p>The narrative unfolds in Hallownest, a once-prosperous kingdom now in decline due to a devastating plague. As the knight ventures through various regions, they confront formidable bosses and unravel the lore of the kingdom. The story is intricately woven into the environment and through interactions with characters, revealing a deep and rich backstory.</p>
+            
+            <h2>Reception</h2>
+            <p><strong>Hollow Knight</strong> has garnered widespread acclaim for its refined gameplay mechanics, stunning art style, and evocative music. It is frequently highlighted as a standout title in the Metroidvania genre, earning a dedicated fan following and numerous accolades.</p>
+            
+            <img src=  alt="Hollow Knight Gameplay" style="width: 100%; max-width: 800px; border-radius: 8px; margin-top: 20px;">
+            
+            <a href="https://youtu.be/ClE8EwpEdGw?si=PZ63GrE8akYxTVD8" target="_blank" class="video-link">Watch a video about Hollow Knight</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Game Reviews. <a href="https://example.com">Visit our site for more reviews!</a></p>
+    </footer>
+
+    <script>
+        // JavaScript for additional interactivity can be added here
+    </script>
+</body>
+</html>
